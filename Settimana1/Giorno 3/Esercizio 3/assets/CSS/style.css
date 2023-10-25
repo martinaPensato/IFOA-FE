@@ -26,10 +26,14 @@ main {
 
  /* Scritta sotto logo */
 
-#header {
+#headerbox{
   background-color: burlywood;
   border-top-color: 10px;
   border-top: solid burlywood;
+}
+
+#sottotitolo{
+  color: rgb(1, 95, 95);
 }
 #secondtitle {
   text-align: center;
