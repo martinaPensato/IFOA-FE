@@ -1,0 +1,47 @@
+body {
+  display: block;
+  justify-content: center;
+  margin-top: 40px;
+  margin: 10%;
+}
+
+main {
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+
+ /* Immagine Principale */
+
+#logocontainer {
+  text-align: center;
+}
+#logocontainer img {
+  width: 20%;
+  height: auto; 
+  display: block;
+  margin: 0 auto;
+}
+
+ /* Scritta sotto logo */
+
+#header {
+  background-color: burlywood;
+  border-top-color: 10px;
+  border-top: solid burlywood;
+}
+#secondtitle {
+  text-align: center;
+}
+#featured {
+  text-align: left;
+}
+
+#process {
+  text-align: left;
+}
+
+#focaccia img {
+border-radius: 10px;
+}
