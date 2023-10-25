@@ -12,35 +12,54 @@
   <body>
     <header>
       <div>
+        <!--Logo iniziale Epicode-->
         <img
-          src="assets/img/logo.svg"
+          src="images/logo.png"
           alt="logo del blog"
-          width="250"
+          width="260"
           height="60"
         />
+
+        <!--Titolo-->
+
         <p>Epicode - Il blog dei developers</p>
       </div>
-      <nav>
+      <div>
+        <!--Menù-->
+
         <ul>
-          <li><a href="index.html" title="Home Page">Home</a></li>
+          <li>
+            <a href="index.html" title="Home Page" target="blank">Home</a>
+          </li>
           <li>
             <a
               href="articoli.html"
               title="Elenco degli articoli tecnici pubblicati"
+              target="_blank"
               >Articoli</a
             >
           </li>
           <li>
-            <a href="contatti.html" title="Candidati inviando un tuo cv">Job</a>
+            <a
+              href="contatti.html"
+              title="Candidati inviando un tuo cv"
+              target="_blank"
+              >Job</a
+            >
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
     <hr />
     <main>
+      <!--Intestazione-->
+
       <article>
         <h1>Come creare un template per i post</h1>
-        <p>di Mario Rossi - <span>pubblicato il 25-10-2020</span></p>
+        <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+
+        <!--Testo-->
+
         <p>
           La prima cosa da fare è suddividere in blocchi logici la pagina,
           identificando le <strong>parti comuni</strong> da applicare a tutte le
@@ -83,6 +102,9 @@
           <caption>
             Diffusione dei CSS
           </caption>
+
+          <!--Tabella-->
+
           <thead>
             <tr>
               <th>Anno</th>
@@ -118,6 +140,9 @@
             </tr>
           </tbody>
         </table>
+
+        <!--Validatore CSS-->
+
         <p>
           Un test di validazione potrà essere fatto tramite il
           <a
@@ -129,14 +154,16 @@
           dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto
           il nostro obiettivo ed essere stati dei veri developers come loro:
         </p>
+
+        <!--Video-->
+
         <iframe
-          width="300"
-          height="300"
           src="https://www.youtube.com/embed/dvOvHXruEDM"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          title="YouTube"
         ></iframe>
+
+        <!--Form iscrizione-->
+
         <section>
           <h2>Novità</h2>
           <p>
@@ -156,12 +183,13 @@
         </section>
       </article>
     </main>
+
+    <!--Articoli correlati-->
+
     <aside>
       <h2>Articoli correlati</h2>
       <div>
-        <a
-          href="post2.html"
-          title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
+        <a href="post2.html" title="Validare il codice HTML"
           >Validare il codice HTML</a
         >
         <p>Categoria: develop</p>
@@ -169,9 +197,7 @@
       </div>
 
       <div>
-        <a
-          href="post3.html"
-          title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
+        <a href="post3.html" title="Correggere la sintassi"
           >Correggere la sintassi</a
         >
         <p>Categoria: develop</p>
@@ -179,9 +205,7 @@
       </div>
 
       <div>
-        <a
-          href="post4.html"
-          title="Consigli ed approcci per ridurre il peso della pagina"
+        <a href="post4.html" title="Meno kb nella pagina"
           >Meno Kb nella pagina</a
         >
         <p>Categoria: ottimizzazione</p>
@@ -189,14 +213,18 @@
       </div>
     </aside>
     <hr />
+
+    <!--Footer-->
+
     <footer>
       <p>Blog Epicode &copy;2023</p>
+
+      <!--Contatti-->
+
       <address>
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
         Luigi Einaudi 2 - Milano. P.IVA 00112233.
-        <a
-          href="mailto:info@epicode.school"
-          title="contattami per informazioni/lavoro/privacy"
+        <a href="mailto:info@epicode.school" title="contatti"
           >info@epicode.school</a
         >
       </address>
