@@ -3,6 +3,7 @@ body {
   justify-content: center;
   margin-top: 40px;
   margin: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 main {
@@ -11,28 +12,28 @@ main {
   margin: 0 auto;
 }
 
-
- /* Immagine Principale */
+/* Immagine logo */
 
 #logocontainer {
   text-align: center;
 }
 #logocontainer img {
-  width: 20%;
-  height: auto; 
+  width: 30%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
- /* Scritta sotto logo */
+/* Scritta sotto logo */
 
-#headerbox{
-  background-color: burlywood;
-  border-top-color: 10px;
-  border-top: solid burlywood;
+#headerbox {
+  background-color: rgb(252, 241, 225);
+  border-top-color: 20px;
+  border-top: rgb(244, 204, 152);
+  padding: 5px;
 }
 
-#sottotitolo{
+#sottotitolo {
   color: rgb(1, 95, 95);
 }
 #secondtitle {
@@ -42,10 +43,43 @@ main {
   text-align: left;
 }
 
+#featuredin {
+  color: #b54711;
+}
 #process {
   text-align: left;
 }
+/*Foto Focaccia e ref.*/
 
-#focaccia img {
-border-radius: 10px;
+#focaccia {
+  border-radius: 20px;
+  box-shadow: 10px, 10px, 20px;
+}
+
+figcaption {
+  color: #9a9a9a;
+}
+
+/*link featured*/
+.link {
+  color: #0b7575;
+  text-decoration: none;
+}
+
+/*liste*/
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ol li {
+  margin-bottom: 5px;
+}
+
+#listafocaccia {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+#listatopping {
+  margin-bottom: 10px; /* Adjust the value as needed */
 }
