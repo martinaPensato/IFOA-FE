@@ -1,0 +1,131 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../images/sfondo.png); /*immagine di sfondo*/
+  background-size: cover;
+  background-repeat: round;
+  line-height: 1.4;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(#00a0c6, #036d86);
+  background-color: #0099ba;
+}
+
+/*modifiche alla lista menu*/
+
+/*uso il selettore child per modificare solo questa lista nell'header*/
+/*ho sostituito i bullets con stelle modificando il list-style-type in none per poi aggiungere icone font awesome davanti ad ogni elemento.*/
+/*ho usato la pseudo-classe ::before per metterle prima di ogni elemento del menu*/
+
+
+header ul {
+  list-style-position: inside;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header ul li::before {
+  content: '\f005'; /*codice font stelline*/
+  font-family: 'Font Awesome 6 Free'; /*riferimento*/
+  margin-right: 10px; /*spazio tra stelle e scritta*/
+  font-size: 0.4em; /*dimensione stelline*/
+}
+
+/*Modifica colore nell'header*/
+/*modifica colore menù*/
+
+.header p {
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none; /*rimuovo la linea sotto link*/
+}
+
+.header a:hover {
+  color: #FF5733; /*hover cambia il colore*/
+}
+/* MAIN */
+
+.main-content {
+  text-align: left;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/*Autore e data*/
+
+#autoredata {
+  color: #AAAAAA;
+}
+
+#autoredata p i {
+  margin-right: 10px;
+}
+
+/* Cambio colore parole viola */
+.pinkwords {
+  color: #9F2470;
+}
+
+/*metto il code tag nel box*/
+code{
+  border: 2px solid#969494;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+}
+
+/* TABELLE */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*costruisco la tabella*/
+/*centro il testo in ogni cella*/
+th, td {
+  border: 1px;
+  padding: 8px;
+  text-align: center; 
+  font-weight: normal;
+}
+
+/*imposto il colore blu per la prima riga e il bianco per la scritta*/
+thead tr {
+  background-color: #3F6BCA; 
+  color: #fff; 
+}
+
+/*utilizzando nth-child(odd) faccio in modo che le colonne dispari siano bianche*/
+tbody tr:nth-child(odd) {
+  background-color: #fff; 
+}
+
+/*utilizzando nth-child(even) faccio in modo che le colonne pari siano azzurre*/
+tbody tr:nth-child(even) {
+  background-color: #F3F3F3; 
+  
+}
+
+/* PRIMA DEL FORM*/
+
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+
+
+/* FOOTER */
