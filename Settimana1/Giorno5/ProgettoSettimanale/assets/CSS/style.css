@@ -33,6 +33,14 @@ footer {
   text-align: center;
 }
 
+/*SPAZIO TRA TITOLI E <p>*/
+.titolo {
+  margin-bottom: 10px; 
+}
+.titolo + p {
+  margin-top: 10px;
+}
+
 /*HEADER*/
 
 header {
@@ -96,7 +104,7 @@ button a {
 #testimonianze {
   color: white;
   background-color: #e22d0e;
-  padding-top: 56px;
+  padding-top: 46px;
   padding-bottom: 24px;
 }
 
