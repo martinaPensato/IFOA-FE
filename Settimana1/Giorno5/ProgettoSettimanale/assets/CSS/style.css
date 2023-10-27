@@ -33,12 +33,125 @@ footer {
   text-align: center;
 }
 
+/*HEADER*/
+
+header {
+  text-align: center;
+  background-color: black;
+  height: 150px;
+}
+
 /*LOGO*/
 
 #logobox {
-  padding: 48px;
+  margin: auto;
+  padding: 64px;
 }
 
 #logo {
   height: 48px;
+}
+
+/*BOTTONE*/
+
+button {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+}
+
+button a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+/*IMMAGINE BACKGROUND PARTE SUPERIORE*/
+
+#back-image {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+}
+
+#imgradius {
+  border-radius: 50%;
+}
+
+#testimonianze {
+ color: white;
+ background-color: #e22d0e;
+ padding-top: 56px;
+ padding-bottom: 24px;
+}
+
+#h3custom {
+  color: white;
+}
+.blockquote cite{
+  display: block;
+  font-style: normal;
+  font-size: 1,1em;
+}
+/*CARD*/
+
+.scheda {
+  
+}
+
+/*FOOTER*/
+footer{
+  padding-bottom: 24px;
+  background-color: #25a2c3;
+  color: white;
+}
+#contactus{
+  color: white;
+}
+
+#footer {
+  padding-top: 20px; 
+}
+
+address p {
+  font-size: 12px;
+  line-height: 1;
+  font-style: normal;
+}
+
+.scheda {
+  width: 90%;
+  border: #dee1e3 1px solid;
+  border-radius: 2%;
+  margin: 34px auto;
+}
+
+.imgscheda {
+  border-top-left-radius: 2%; 
+  border-top-right-radius: 2%; 
+  width: 100%;
+}
+
+address a {
+  color: inherit;
+}
+
+#linea {
+  width: 35%;
+}
+
+
+#copyright {
+  font-size: 12px;
 }
