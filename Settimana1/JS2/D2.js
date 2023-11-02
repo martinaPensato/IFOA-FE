@@ -34,6 +34,16 @@ if (numero % 5 === 0) {
   console.log("divisibile per 5");
 }
 
+//CORREZIONE
+
+let diviso5=15;
+
+if (diviso5 % 5 === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("Il numero non è divisibile per 5");
+}
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 4
