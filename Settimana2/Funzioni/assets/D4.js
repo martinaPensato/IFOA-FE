@@ -106,6 +106,7 @@ console.log(stringa);
 */
 
 function check3and7(n) {
+  n = Math.abs(n)
   if (n > 0 && (n % 3 === 0 || n % 7 === 0)) {
     return true;
   } else {
