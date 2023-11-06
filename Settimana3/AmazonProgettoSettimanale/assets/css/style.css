@@ -1,1 +1,191 @@
 /* Your styles here */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E8EDEF;
+  line-height: 1.1;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin: 20px;
+}
+
+/* LOGO */
+.logo {
+  background-color: #212e3e;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+/* MENU */
+.headList {
+  background-color: #354557;
+  padding: 1px;
+}
+
+.headList ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.headList li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+/* BANNER ARANCIONE */
+
+#orangeBanner {
+  background-color: #f56600;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin-bottom: 2em;
+  padding: 0.2rem 0.05rem;
+}
+
+#orangeBanner p {
+  margin: 0.2em 0;
+}
+
+/* BANNER VERDE */
+#greenBanner {
+  background-image: url(../images/bg-image.png);
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.Title {
+text-align: center;
+color: white;
+padding: 20px;
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1rem;
+}
+
+/* BOX CON IMMAGINI */
+
+.box{
+  background-color: white;
+  padding: 0.4em;
+  display: inline-block;
+ 
+}
+.smallTitle, .smallTitle2 {
+  display: inline;
+}
+
+.smallTitle{
+  color: black;
+  font-size: 14px;
+} 
+
+.smallTitle2{
+  font-size: 0.5rem;
+  color: #0F4F56;
+  font-weight: bolder;
+}
+
+.card {
+  display: inline-block;
+  width: calc(24% - 20px); 
+  margin: 10px;
+  text-align: center;
+  height: 280px; 
+}
+
+.card img {
+  height: 100%;
+  width: auto; 
+  max-width: 100%; 
+  border-radius: 18px;
+  box-shadow: 3px 3px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.first-card {
+  margin-left: 30px; 
+}
+
+.card-text {
+  text-align: left;
+}
+
+.smallTitle, .smallTitle2 {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* DUE IMMAGINI GRANDI */
+
+.fullScreenImgs {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 3px;
+}
+
+.fullScreenImgs p {
+  margin-top: 0; 
+}
+
+.fullScreenImgs img{
+width: 100%;
+}
+
+.smallTitle{
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.smallTitle2{
+  font-weight: bold;
+  font-size: 12px;
+  color: #154954;
+}
+
+/* BACK TO TOP */
+
+.backToTop{
+  background-color: #364759;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.backToTop a{
+color: white;
+font-weight: bold;
+font-size: 13px;
+}
+
+/* FOOTER */
+
+.logoFooter{
+  background-color: #222F3F;
+  text-align: center;
+  padding:40px;
+}
+
+.logoFooter img{
+  width: 150px;
+}
