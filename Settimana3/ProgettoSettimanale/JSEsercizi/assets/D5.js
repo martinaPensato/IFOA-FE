@@ -32,9 +32,9 @@ console.log(pets);
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
-*/
+*/ 
 
-const firstPet = pets.shift();
+const firstPet = pets.splice(0, 1)[0];
 pets.push(firstPet);
 console.log(pets);
 
