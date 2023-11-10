@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.1;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+
+#Form {
+  background-color: #77dd77;
+  padding: 40px 50px;
+  color: white;
+  text-align: center;}
+
+
+  input { 
+      margin: 0;
+      border: none;
+      width: 35%;
+      padding: 10px;
+      float: center;
+      font-size: 16px;
+    
+  }
+
+  .addButton {
+    padding: 10px;
+    width: 25%;
+    background: rgb(17, 96, 60);
+    color: #ffffff;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .addButton:hover {
+    background-color:rgb(23, 34, 29);
+  }
+
+  #ul1 {
+  cursor: pointer;
+  position: relative;
+  padding: 20px 10px 20px 20px;
+  background: #335e52;
+  font-size: 30px;
+  float: center;
+  list-style-type: circle;
+  }
+  ul {
+    color: #ffffff;
+  }
+
+  ul li:nth-child(odd) {
+    background: #417767;
+  }
