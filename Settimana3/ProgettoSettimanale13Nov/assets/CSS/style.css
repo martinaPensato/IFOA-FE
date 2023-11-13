@@ -1,0 +1,12 @@
+/*Per vedere la tabella*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 2px solid rgb(7, 7, 7);
+  text-align: left;
+  padding: 20px;
+}
