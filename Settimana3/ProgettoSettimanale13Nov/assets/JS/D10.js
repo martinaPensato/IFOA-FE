@@ -619,7 +619,7 @@ function svuotaLaLista() {
   lista.innerHTML = ''; 
 }
 
-// svuotaLista(); Scrivo come commento altrimenti non sono visibili le modifiche precedenti...
+// svuotaLista(); Scrivo come commento altrimenti non sono visibili le modifiche precedenti alla lista...
 
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
