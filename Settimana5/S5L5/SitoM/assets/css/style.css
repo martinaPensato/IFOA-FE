@@ -466,9 +466,9 @@ h6 {
 .articoloMain {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
-    padding-left: 7%;
+    padding-left: 13%;
     padding-top: 5%;
 
 }
@@ -476,7 +476,9 @@ h6 {
 .corpoArticolo {
     flex: 1;
 }
-
+.imgArticolo {
+    margin-right: 0;
+}
 .imgArticolo img {
     width: 40%;
     max-width: 100%;
@@ -516,14 +518,24 @@ small img {
 }
 
 /* ASIDE E FOOTER */
-
-.aside {
-    position: sticky;
-    top: 38px;
-    margin-top: 20px;
-    margin-left: 150px;
-    max-width: 500px;
-    height: 300px;
-    
-
-}
+.boxMain2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .sinistra {
+    flex: 1;
+    min-width: 60%;
+  }
+  
+  .aside {
+    max-width: 300px;
+    margin-left: 20px;
+  }
+  
+  .footer {
+    max-width: 300px;
+    margin-left: 20px;
+    margin-top: 20px; /* Aggiungi margine superiore al footer se necessario */
+  }
