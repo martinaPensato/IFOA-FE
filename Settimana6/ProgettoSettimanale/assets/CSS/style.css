@@ -1,0 +1,122 @@
+ body {
+    background: #000;
+  }
+  
+  .btn {
+    border-radius: 0;
+  }
+  
+  #logo {
+    height: 50px;
+  }
+  
+  .dropdown-menu {
+    margin-left: -100px;
+    background-color: #000;
+  }
+   
+  .dropdown-menu a {
+    font-size: 12px;
+  }
+  #icona {
+    height: 38px;
+  }
+  
+  #iconaSm {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+
+  .icon {
+    margin: 10px 10px;
+  }
+  
+  
+  .generi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .filmPoster {
+    transition: 0.5s;
+    opacity: 0.6;
+  }
+  
+  .filmPoster:hover {
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.025);
+    position: relative;
+    z-index: 1;
+  }
+  
+  :is(.carousel-control-prev, .carousel-control-next) {
+    width: 45px;
+  }
+
+   /*PAGINA ACCOUNT*/
+   
+  .bodyAccount {
+    min-height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  .bodyAccount h6 {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  .bodyAccount .cancelMembership {
+    background-image: linear-gradient(to bottom, rgb(236, 236, 236), rgb(211, 211, 211));
+    background-repeat: no-repeat;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-inline: 2rem;
+    box-shadow: 0 2px 2px -1px rgb(0 0 0 / 30%);
+  }
+  
+  .linkAccount {
+    text-decoration: none;
+  }
+  /*PROFILE PAGE*/
+
+  .titoloProfilo {
+    font-size: 64px;
+  }
+
+  .profileAccount {
+    color: #fff;
+  }
+
+  input[type="text"] {
+    padding: 12px;
+    background: #b9b9b9;
+    width: 100%;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+  }
+  
+  input[type="checkbox"] {
+    width: 38px;
+    height: 38px;
+  }
+  
+
+  .profileAccount .bottoniFooter button {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  
+
+  
+  
+  
