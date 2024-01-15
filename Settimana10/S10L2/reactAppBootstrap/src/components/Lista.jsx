@@ -1,7 +1,7 @@
 import { Card, Button } from 'react-bootstrap';
 import { useState } from 'react';
 import ListButtons from './ListButtons';
-import { SingleBook } from './SingleBook';
+import SingleBook from './SingleBook';
 
 const Lista = () => {
     const [list, setList] = useState([]);
